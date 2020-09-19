@@ -12,6 +12,7 @@ end
   maru = Cat.new
   maru.name = "Maru"
   
+  puts Maru.name
   
   
 class Cat
