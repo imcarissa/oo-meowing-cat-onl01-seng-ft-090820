@@ -4,10 +4,13 @@ class Cat
     def initialize(name)
     @name = name
   end
-
-
-maru = Cat.new 
-maru.name = "Maru"
+ 
+  def name
+    @name
+  end
+end
+ 
+maru = Cat.new
 
 def meow
     puts "meow!"
